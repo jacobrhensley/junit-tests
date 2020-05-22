@@ -17,17 +17,17 @@ public class CohortTest {
         cohortWithOne = new Cohort();
         cohortWithMany = new Cohort();
 
-        Student fer = new Student(1, "Fer M");
-        fer.addGrade(90);
+        Student jacob = new Student(1, "Jacob Hensley");
+        jacob.addGrade(90);
 
-        Student trant = new Student(2, "Trant B");
-        trant.addGrade(100);
-        trant.addGrade(100);
-        trant.addGrade(100);
+        Student other = new Student(2, "Other Person");
+        other.addGrade(100);
+        other.addGrade(100);
+        other.addGrade(100);
 
-        cohortWithOne.addStudent(fer);
-        cohortWithMany.addStudent(fer);
-        cohortWithMany.addStudent(trant);
+        cohortWithOne.addStudent(jacob);
+        cohortWithMany.addStudent(jacob);
+        cohortWithMany.addStudent(other);
     }
 
     @Test
